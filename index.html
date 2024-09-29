@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./sushi.png">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./sushi.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sections/header.css">
     <title>Sushi Junkichi</title>
   </head>
   <body>
-    <h1>Sushi Junkichi</h1>
+    <!-- Navbar -->
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4>Sushi Junkichi</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#menu">Food</a>
+          </li>
+          <li>
+            <a href="#menu">Services</a>
+          </li>
+          <li>
+            <a href="#menu">About us</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search">
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile">
+          <img src="assets/menu.svg" alt="menu">
+        </ul>
+      </nav>
+    </header>
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
